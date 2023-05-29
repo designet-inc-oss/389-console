@@ -17,7 +17,7 @@ DesigNET has performed multilingualization and Japanese localization for the 389
 1. ☁ Clone this into your `/opt` directory
 ```
     # cd /opt
-    # git https://github.com/designet-inc-oss/389-console.git
+    # git clone https://github.com/designet-inc-oss/389-console.git
 ```
 2. 🏗 Then run `./buildAndRun.sh` to build.
 ```
