@@ -987,8 +987,8 @@ class ManagedEntries extends React.Component {
             configArea || "delete"
         ];
 
-        const templateTitle = (newTemplateEntry ? _("Add") : _("Edit")) + _(" Managed Entries Template Entry");
-        const title = (newDefEntry ? _("Add") : _("Edit")) + _(" Managed Entries Definition Entry");
+        const templateTitle = cockpit.format(_("$0 Managed Entries Template Entry"), (newTemplateEntry ? _("Add") : _("Edit")));
+        const title = cockpit.format(_("$0 Managed Entries Definition Entry"), (newDefEntry ? _("Add") : _("Edit")));
         const defSaveDisabled = this.validateDef(newDefEntry);
         const tempSaveDisabled = this.validateTemp(newTemplateEntry);
         const templateRdnMappingOK = this.validateTempRdnToAttrMapping();

@@ -648,7 +648,7 @@ class PAMPassthroughAuthentication extends React.Component {
             extraPrimaryProps.spinnerAriaValueText = _("Saving");
         }
 
-        const title = (newPAMConfigEntry ? _("Add") : _("Edit")) + _(" PAM Passthough Auth Config Entry");
+        const title = cockpit.format(_("$0 PAM Passthough Auth Config Entry"), (newPAMConfigEntry ? _("Add") : _("Edit")));
 
         return (
             <div className={savingPAM ? "ds-disabled" : ""}>

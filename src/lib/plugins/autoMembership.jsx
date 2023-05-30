@@ -1060,7 +1060,7 @@ class AutoMembership extends React.Component {
             firstLoad,
         } = this.state;
 
-        const title = (newDefinitionEntry ? _("Add") : _("Edit")) + _(" Auto Membership Plugin Definition Entry");
+        const title = cockpit.format(_("$0  Auto Membership Plugin Definition Entry"), (newDefinitionEntry ? _("Add") : _("Edit")));
         const extraPrimaryProps = {};
         let saveBtnText = newDefinitionEntry ? _("Add Definition") : _("Save Definition");
         if (saving) {

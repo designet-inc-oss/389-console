@@ -196,8 +196,8 @@ class DeleteOperationWizard extends React.Component {
                                 <ClipboardCopy
                                     variant={ClipboardCopyVariant.expansion}
                                     isReadOnly
-                                    hoverTip="Copy"
-                                    clickTip="Copied"
+                                    hoverTip={_("Copy")}
+                                    clickTip={_("Copied")}
                                 >
                                     {ldapsearchCmd}
                                 </ClipboardCopy>
@@ -216,7 +216,7 @@ class DeleteOperationWizard extends React.Component {
         );
 
         const nbToDelete = numSubordinates > 0
-            ? _(`This entry, as well as all its child entries,`)
+            ? _("This entry, as well as all its child entries,")
             : _("This entry")
         const deletionStep = (
             <div>

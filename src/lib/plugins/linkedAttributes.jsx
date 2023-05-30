@@ -427,7 +427,7 @@ class LinkedAttributes extends React.Component {
             firstLoad
         } = this.state;
 
-        const title = (newEntry ? _("Add") : _("Edit")) + _(" Linked Attributes Plugin Config Entry");
+        const title = cockpit.format(_("Linked Attributes Plugin Config Entry"), (newEntry ? _("Add") : _("Edit")));
         let saveBtnName = (newEntry ? _("Add") : _("Save")) + _(" Config");
         const extraPrimaryProps = {};
         if (saving) {

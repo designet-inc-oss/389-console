@@ -127,7 +127,7 @@ export class WinsyncAgmtModal extends React.Component {
             isExcludeAttrOpen,
         } = this.props;
         const saveDisabled = !this.props.saveOK;
-        let title = "Create";
+        let title = _("Create");
         let initRow = "";
         let name = "agmt-modal";
         const startHour = agmtStartTime.substring(0, 2);
@@ -136,7 +136,7 @@ export class WinsyncAgmtModal extends React.Component {
         const endHour = agmtEndTime.substring(0, 2);
         const endMin = agmtEndTime.substring(2, 4);
         const endTime = endHour + ":" + endMin;
-        let saveBtnName = "Save Agreement";
+        let saveBtnName = _("Save Agreement");
         const extraPrimaryProps = {};
         if (spinning) {
             saveBtnName = _("Saving Agreement ...");
@@ -327,7 +327,7 @@ export class WinsyncAgmtModal extends React.Component {
             scheduleRow = "";
         }
 
-        title = title + _(" Winsync Agreement");
+        title = cockpit.format(_("$0 Winsync Agreement"), title);
 
         return (
             <Modal
@@ -1099,7 +1099,7 @@ export class ReplAgmtModal extends React.Component {
             bootstrapRow = "";
         }
 
-        title = title + _(" Replication Agreement");
+        title = cockpit.format(_("$0 Replication Agreement"), title);
         return (
             <Modal
                 variant={ModalVariant.medium}

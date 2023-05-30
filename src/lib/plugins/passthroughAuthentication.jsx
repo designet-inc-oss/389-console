@@ -464,7 +464,7 @@ class PassthroughAuthentication extends React.Component {
             extraPrimaryProps.spinnerAriaValueText = _("Saving");
         }
 
-        const title_url = (newURLEntry ? _("Add") : _("Edit")) + _(" Pass-Though Authentication URL");
+        const title_url = cockpit.format(_("$0 Pass-Though Authentication URL"), (newURLEntry ? _("Add") : _("Edit")));
 
         return (
             <div className={savingPassthru ? "ds-disabled" : ""}>

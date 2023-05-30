@@ -600,7 +600,7 @@ class AttributeUniqueness extends React.Component {
             newEntry,
         } = this.state;
 
-        const title = (newEntry ? _("Add") : _("Edit")) + _(" Attribute Uniqueness Plugin Config Entry");
+        const title = cockpit.format(_("$0 Attribute Uniqueness Plugin Config Entry"), (newEntry ? _("Add") : _("Edit")));
         let saveBtnName = (newEntry ? _("Add") : _("Save")) + _(" Config");
         const extraPrimaryProps = {};
         if (this.state.saving) {

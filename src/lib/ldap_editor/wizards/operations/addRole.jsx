@@ -993,14 +993,14 @@ class AddRole extends React.Component {
                 id: 6,
                 name: _("Create Role"),
                 component: roleCreationStep,
-                nextButtonText: 'Create',
+                nextButtonText: _("Create"),
                 canJumpTo: stepIdReached >= 6 && stepIdReached < 7
             },
             {
                 id: 7,
                 name: _("Review Result"),
                 component: roleReviewStep,
-                nextButtonText: 'Finish',
+                nextButtonText: _("Finish"),
                 canJumpTo: stepIdReached >= 7,
                 hideBackButton: true,
                 enableNext: !this.state.adding

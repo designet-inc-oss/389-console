@@ -390,7 +390,7 @@ export class ReplSuffix extends React.Component {
                     onClick={this.handleReplChange}
                     title={_("Disable replication, and remove all replication agreements.")}
                 >
-                    Disable
+                    {_("Disable")}
                 </Button>;
         } else {
             enabledContent =

@@ -59,7 +59,7 @@ class ObjectClassModal extends React.Component {
                 `View ObjectClass - ${ocName}`
             ) : (
                 <div>
-                    {newOcEntry ? _("Add") : _("Edit")} {_("ObjectClass")}
+                    {cockpit.format(_("$0 ObjectClass"), newOcEntry ? _("Add") : _("Edit"))}
                     {ocName != "" ? ` - ${ocName}` : ""}{" "}
                 </div>
             );
@@ -349,7 +349,7 @@ class AttributeTypeModal extends React.Component {
                 cockpit.format(_("View Attribute - $0"), atName)
             ) : (
                 <div>
-                    {newAtEntry ? _("Add") : _("Edit")} {_("Attribute")}
+                    {cockpit.format(_("$0 Attribute"), newAtEntry ? _("Add") : _("Edit"))}
                     {atName != "" ? ` - ${atName}` : ""}{" "}
                 </div>
             );

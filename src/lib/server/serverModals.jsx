@@ -23,7 +23,7 @@ export class SASLMappingModal extends React.Component {
         if (title != "Create") {
             btnText = _("Save Mapping");
         }
-        title = title + _(" SASL Mapping");
+        title = cockpit.format(_("$0 SASL Mapping"), title);
         if (this.props.spinning) {
             btnText = _("Saving...");
             extraPrimaryProps.spinnerAriaValueText = _("Loading");
