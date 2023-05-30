@@ -153,7 +153,7 @@ class DeleteOperationWizard extends React.Component {
         } = this.state;
 
         const info = numSubordinates > 0
-            ? _(`It has child entries which will also be recursively deleted.`)
+            ? _("It has child entries which will also be recursively deleted.")
             : '';
         const entryIcon = numSubordinates > 0
             ? <UsersIcon />

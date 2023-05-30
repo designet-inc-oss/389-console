@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-30 14:29+0900\n"
+"POT-Creation-Date: 2023-05-30 17:06+0900\n"
 "PO-Revision-Date: 2016-08-08 14:08+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE TEAM <EMAIL@ADDRESS>\n"
@@ -77,7 +77,7 @@ msgstr "キャンセル"
 
 #: src/lib/monitor/monitorModals.jsx:91
 msgid "Replication Agreement Details ("
-msgstr "レプリケーション契約の詳細"
+msgstr "レプリカ合意の詳細 ("
 
 #: src/lib/monitor/monitorModals.jsx:104 src/lib/monitor/monitorTables.jsx:393
 #: src/lib/monitor/monitorTables.jsx:601
@@ -86,19 +86,19 @@ msgstr "レプリカ"
 
 #: src/lib/monitor/monitorModals.jsx:112
 msgid "Agreement Enabled"
-msgstr "有効なレプリケーション契約"
+msgstr "有効なレプリカ合意"
 
 #: src/lib/monitor/monitorModals.jsx:120
 msgid "Last Init Started"
-msgstr "最後の初期化を開始"
+msgstr "前回の初期化開始日時"
 
 #: src/lib/monitor/monitorModals.jsx:128
 msgid "Last Init Ended"
-msgstr "最後の初期化が終了"
+msgstr "前回の初期化終了日時"
 
 #: src/lib/monitor/monitorModals.jsx:136
 msgid "Last Initialization Status"
-msgstr "最後の初期化の状態"
+msgstr "前回の初期化ステータス"
 
 #: src/lib/monitor/monitorModals.jsx:149
 msgid "Replication In Progress"
@@ -134,7 +134,7 @@ msgstr "有効なエントリ"
 
 #: src/lib/monitor/monitorModals.jsx:273 src/lib/monitor/monitorModals.jsx:288
 msgid "Child Entries: "
-msgstr "子エントリ："
+msgstr "子エントリ: "
 
 #: src/lib/monitor/monitorModals.jsx:282
 msgid "Conflict Entry"
@@ -269,11 +269,11 @@ msgstr "パスワード"
 
 #: src/lib/monitor/monitorModals.jsx:497
 msgid "Input the password interactively"
-msgstr "パスワードを対話的に入力できるようにします"
+msgstr "パスワードを対話形式で入力します"
 
 #: src/lib/monitor/monitorModals.jsx:499 src/lib/monitor/monitorModals.jsx:654
 msgid "Interractive Input"
-msgstr "パスワードを対話的に入力する"
+msgstr "パスワードを対話形成で入力する"
 
 #: src/lib/monitor/monitorModals.jsx:540
 msgid "Add Replica Connection"
@@ -296,12 +296,12 @@ msgstr ""
 msgid ""
 "Input the password interactively, stores '*' as the password value in .dsrc"
 msgstr ""
-"パスワードをインタラクティブに入力し、'.dsrc' ファイル内でパスワード値として "
-"'*' を保存するように設定します。"
+"パスワードを対話形式で入力し、'.dsrc' ファイル内のパスワード値を'*' で保存し"
+"ます。"
 
 #: src/lib/monitor/monitorModals.jsx:692
 msgid "$0 Report Alias"
-msgstr "$0 レポートのエイリアスを表示"
+msgstr "レポートのエイリアスを$0"
 
 #: src/lib/monitor/monitorModals.jsx:717
 msgid "Alias name for the instance"
@@ -326,15 +326,15 @@ msgstr "$0 のレプリケーションログイン資格情報"
 
 #: src/lib/monitor/monitorModals.jsx:807
 msgid "Confirm Credentials Input"
-msgstr "資格情報の入力を確認します"
+msgstr "資格情報の入力を確認"
 
 #: src/lib/monitor/monitorModals.jsx:817
 msgid ""
 "In order to get the replication agreement lag times and state, the "
 "authentication credentials to the remote replicas must be provided."
 msgstr ""
-"リモートレプリカへのレプリケーション合意の遅延時間と状態を取得するために、リ"
-"モートレプリカへの認証資格情報を提供する必要があります。"
+"リモートレプリカへのレプリカ合意の遅延時間と状態を取得するために、リモートレ"
+"プリカへの認証資格情報を提供する必要があります。"
 
 #: src/lib/monitor/monitorModals.jsx:823
 msgid ""
@@ -398,11 +398,11 @@ msgid ""
 "Display all agreements including the disabled ones and the ones we failed to "
 "connect to"
 msgstr ""
-"全ての契約を表示します。これには無効な契約や接続に失敗した契約も含まれます。"
+"全ての合意を表示します。これには無効な合意や接続に失敗した合意も含まれます。"
 
 #: src/lib/monitor/monitorModals.jsx:932
 msgid "Show Disabled Agreements"
-msgstr "無効なレプリケーション契約を表示する"
+msgstr "無効なレプリカ合意を表示する"
 
 #: src/lib/monitor/monitorModals.jsx:942
 msgid "Refresh Report"
@@ -411,7 +411,7 @@ msgstr "レポートを更新"
 #: src/lib/monitor/monitorModals.jsx:952
 msgid "Show all data in one table (it makes it easier to check lag times)"
 msgstr ""
-"すべてのデータを1つのテーブルに表示します(遅延時間を確認するのに便利です)。"
+"すべてのデータを1つのテーブルに表示します(遅延時間を確認するのに便利です)"
 
 #: src/lib/monitor/monitorModals.jsx:953 src/LDAPEditor.jsx:1173
 msgid "Table View"
@@ -419,7 +419,7 @@ msgstr "テーブルの一覧を表示する"
 
 #: src/lib/monitor/monitorModals.jsx:995
 msgid "Can not get replication information from Replica:"
-msgstr "レプリカからのレプリケーション情報を取得できません："
+msgstr "レプリカからのレプリケーション情報を取得できません:"
 
 #: src/lib/monitor/monitorModals.jsx:1022
 msgid "Replica Root"
@@ -444,7 +444,7 @@ msgstr "レプリカの状態"
 
 #: src/lib/monitor/monitorModals.jsx:1057
 msgid "No Agreements Were Found"
-msgstr "契約は見つかりませんでした"
+msgstr "合意は見つかりませんでした"
 
 #: src/lib/monitor/monitorModals.jsx:1066
 msgid "Supplier host:port (and alias if applicable)"
@@ -456,7 +456,7 @@ msgstr "サプライヤー"
 
 #: src/lib/monitor/chainingMonitor.jsx:35
 msgid "Refresh chaining monitor"
-msgstr "チェイニングモニターを更新"
+msgstr "チェイン監視を更新"
 
 #: src/lib/monitor/chainingMonitor.jsx:42 src/lib/monitor/serverMonitor.jsx:677
 msgid "Add Operations"
@@ -526,7 +526,7 @@ msgstr "キャッシュ利用率"
 
 #: src/lib/monitor/dbMonitor.jsx:189
 msgid "Loading database monitor information ..."
-msgstr "データベースのモニタ情報を読み込んでいます..."
+msgstr "データベースの監視情報を読み込んでいます..."
 
 #: src/lib/monitor/dbMonitor.jsx:233 src/lib/database/databaseConfig.jsx:727
 msgid "Database Cache"
@@ -534,7 +534,7 @@ msgstr "データベースキャッシュ"
 
 #: src/lib/monitor/dbMonitor.jsx:239
 msgid "The database cache hit ratio (dbcachehitratio)."
-msgstr "データベースのキャッシュヒット比率"
+msgstr "データベースのキャッシュヒット率(dbcachehitratio)"
 
 #: src/lib/monitor/dbMonitor.jsx:253
 msgid "Live Database Cache Statistics"
@@ -542,15 +542,15 @@ msgstr "ライブデータベースのキャッシュ統計"
 
 #: src/lib/monitor/dbMonitor.jsx:283
 msgid "Database Cache Hit Ratio:"
-msgstr "データベースのキャッシュヒット率："
+msgstr "データベースのキャッシュヒット率:"
 
 #: src/lib/monitor/dbMonitor.jsx:289
 msgid "Database Cache Tries:"
-msgstr "データベースのキャッシュトライ数："
+msgstr "データベースのキャッシュトライ数:"
 
 #: src/lib/monitor/dbMonitor.jsx:295
 msgid "Database Cache Hits:"
-msgstr "データベースのキャッシュヒット数："
+msgstr "データベースのキャッシュヒット数:"
 
 #: src/lib/monitor/dbMonitor.jsx:301
 msgid "Cache Pages Read:"
@@ -585,7 +585,7 @@ msgid ""
 "The amount of the cache that is being used: max size "
 "(maxnormalizeddncachesize) vs current size (currentnormalizeddncachesize)"
 msgstr ""
-"使用されているキャッシュの量：最大サイズ(maxnormalizeddncachesize)と現在のサ"
+"使用されているキャッシュの量: 最大サイズ(maxnormalizeddncachesize)と現在のサ"
 "イズ(currentnormalizeddncachesize)の比較"
 
 #: src/lib/monitor/dbMonitor.jsx:393 src/lib/monitor/suffixMonitor.jsx:515
@@ -638,21 +638,21 @@ msgstr "データベースのパフォーマンス統計"
 
 #: src/lib/monitor/replMonAgmts.jsx:42
 msgid "Replication agreement has been poked"
-msgstr "レプリケーションアグリーメントはポークされました"
+msgstr "レプリカ合意が変更されました"
 
 #: src/lib/monitor/replMonAgmts.jsx:49
 msgid "Failed to poke replication agreement $0 - $1"
-msgstr "レプリケーションアグリーメント $0 のポークに失敗しました - $1"
+msgstr "レプリカ合意 $0 の変更に失敗しました - $1"
 
 #: src/lib/monitor/replMonAgmts.jsx:62
 msgid "Monitor Replication Agreements"
-msgstr "レプリケーションアグリーメントのモニタリング"
+msgstr "レプリカ合意の監視"
 
 #: src/lib/monitor/replMonAgmts.jsx:67 src/lib/monitor/replMonConflict.jsx:406
 #: src/lib/monitor/replMonTasks.jsx:98 src/lib/monitor/replMonWinsync.jsx:66
 #: src/lib/monitor/replMonitor.jsx:1517
 msgid "Refresh replication monitor"
-msgstr "レプリケーションモニターを更新する"
+msgstr "レプリケーション監視を更新する"
 
 #: src/lib/monitor/replMonConflict.jsx:125
 msgid "Replication conflict entry was converted into a valid entry"
@@ -676,7 +676,7 @@ msgstr "競合エントリが削除されました"
 
 #: src/lib/monitor/replMonConflict.jsx:193
 msgid "Failed to delete conflict entry: $0 - $1"
-msgstr "競合エントリの削除に失敗しました：$0 - $1"
+msgstr "競合エントリの削除に失敗しました: $0 - $1"
 
 #: src/lib/monitor/replMonConflict.jsx:221
 msgid "Failed to get conflict entries: $0 - $1"
@@ -704,7 +704,7 @@ msgstr "競合エントリを変換するには、RDNを指定する必要があ
 
 #: src/lib/monitor/replMonConflict.jsx:401
 msgid "Monitor Conflict and Glue Entries"
-msgstr "競合エントリとグルーエントリのモニタリングを行います"
+msgstr "競合エントリとグルーエントリの監視"
 
 #: src/lib/monitor/replMonConflict.jsx:413
 msgid "Conflict Entries "
@@ -841,7 +841,7 @@ msgstr "競合を削除"
 
 #: src/lib/monitor/replMonTasks.jsx:93
 msgid "Monitor Replication Tasks"
-msgstr "レプリケーションタスクのモニタリング"
+msgstr "レプリケーションタスクの監視"
 
 #: src/lib/monitor/replMonTasks.jsx:105
 msgid "CleanAllRUV Tasks "
@@ -853,21 +853,21 @@ msgstr "CleanAllRUVタスクの中止"
 
 #: src/lib/monitor/replMonWinsync.jsx:41
 msgid "Replication Winysnc agreement has been poked"
-msgstr "レプリケーションWinysnc契約がポークされました"
+msgstr "レプリカWinysnc合意を変更しました"
 
 #: src/lib/monitor/replMonWinsync.jsx:48
 msgid "Failed to poke replication winsync agreement $0 - $1"
-msgstr "レプリケーションWinysnc契約のポークに失敗しました。$0 - $1"
+msgstr "レプリカWinysnc合意 $0 の変更に失敗しました - $1"
 
 #: src/lib/monitor/replMonWinsync.jsx:61
 msgid "Monitor Winsync Agreements"
-msgstr "Winsync契約のモニタリングを行っています。"
+msgstr "Winsync合意の監視"
 
 #: src/lib/monitor/securitylog.jsx:103
 msgid "Reloading security log..."
 msgstr "セキュリティログを更新しています..."
 
-#: src/lib/monitor/securitylog.jsx:113 src/server.jsx:190 src/monitor.jsx:268
+#: src/lib/monitor/securitylog.jsx:113 src/monitor.jsx:268 src/server.jsx:190
 msgid "Security Log"
 msgstr "セキュリティログ"
 
@@ -903,7 +903,7 @@ msgstr "サーバの統計情報"
 
 #: src/lib/monitor/serverMonitor.jsx:331
 msgid "Refresh suffix monitor"
-msgstr "サフィックスモニターを更新する"
+msgstr "サフィックス監視を更新する"
 
 #: src/lib/monitor/serverMonitor.jsx:339
 msgid "Resource Charts"
@@ -1013,7 +1013,7 @@ msgstr "ディスクスペース"
 #: src/lib/monitor/serverMonitor.jsx:599 src/lib/database/backups.jsx:582
 #: src/LDAPEditor.jsx:1185
 msgid "Refresh"
-msgstr "更新する"
+msgstr "更新"
 
 #: src/lib/monitor/serverMonitor.jsx:602
 msgid "SNMP Counters"
@@ -1090,7 +1090,7 @@ msgstr "ツリー全体を検索"
 
 #: src/lib/monitor/suffixMonitor.jsx:236
 msgid "Loading Suffix Monitor Information ..."
-msgstr "サフィックスのモニタリング情報を読み込んでいます ..."
+msgstr "サフィックスの監視情報を読み込んでいます ..."
 
 #: src/lib/monitor/suffixMonitor.jsx:300 src/lib/server/errorLog.jsx:90
 msgid "Entry Cache"
@@ -1109,7 +1109,7 @@ msgid ""
 "The amount of the cache that is being used: max size (maxentrycachesize) vs "
 "current size (currententrycachesize)"
 msgstr ""
-"使用中のキャッシュ量：最大サイズ(maxentrycachesize) vs 現在のサイズ"
+"使用中のキャッシュ量: 最大サイズ(maxentrycachesize) vs 現在のサイズ"
 "(currententrycachesize)"
 
 #: src/lib/monitor/suffixMonitor.jsx:366
@@ -1154,7 +1154,7 @@ msgstr "DNキャッシュ"
 
 #: src/lib/monitor/suffixMonitor.jsx:457
 msgid "The DN cache hit ratio (dncachehitratio)"
-msgstr "DNキャッシュのヒット率"
+msgstr "DNキャッシュのヒット率(dncachehitratio)"
 
 #: src/lib/monitor/suffixMonitor.jsx:471
 msgid "Live DN Cache Statistics"
@@ -1174,11 +1174,11 @@ msgstr "キャッシュの利用状況に関する情報"
 
 #: src/lib/monitor/suffixMonitor.jsx:554
 msgid "DN Cache Hit Ratio:"
-msgstr "DNキャッシュのヒット比率："
+msgstr "DNキャッシュのヒット率:"
 
 #: src/lib/monitor/suffixMonitor.jsx:560
 msgid "DN Cache Max Size:"
-msgstr "DNキャッシュの最大サイズ："
+msgstr "DNキャッシュの最大サイズ:"
 
 #: src/lib/monitor/suffixMonitor.jsx:566
 msgid "DN Cache Hits:"
@@ -1231,7 +1231,7 @@ msgstr "CleanAllRUVのタスク"
 #: src/lib/monitor/monitorTables.jsx:392 src/lib/monitor/monitorTables.jsx:600
 #: src/lib/monitor/monitorTables.jsx:1578
 msgid "Agreement"
-msgstr "契約内容"
+msgstr "合意"
 
 #: src/lib/monitor/monitorTables.jsx:394 src/lib/monitor/monitorTables.jsx:602
 #: src/lib/monitor/monitorTables.jsx:1801 src/lib/plugins/pluginTables.jsx:43
@@ -1243,57 +1243,57 @@ msgstr "有効"
 #: src/lib/monitor/monitorTables.jsx:1616
 #: src/lib/monitor/monitorTables.jsx:1839
 msgid "Session In Progress:"
-msgstr "セッションが進行中"
+msgstr "進行中のセッション:"
 
 #: src/lib/monitor/monitorTables.jsx:422 src/lib/monitor/monitorTables.jsx:630
 #: src/lib/monitor/monitorTables.jsx:1620
 #: src/lib/monitor/monitorTables.jsx:1843
 msgid "Changes Sent:"
-msgstr "変更を送信しました"
+msgstr "送信された変更:"
 
 #: src/lib/monitor/monitorTables.jsx:425 src/lib/monitor/monitorTables.jsx:637
 #: src/lib/monitor/monitorTables.jsx:1627
 #: src/lib/monitor/monitorTables.jsx:1850
 msgid "Last Init Started:"
-msgstr "最後の初期化を開始"
+msgstr "前回の初期化開始日時:"
 
 #: src/lib/monitor/monitorTables.jsx:427 src/lib/monitor/monitorTables.jsx:639
 #: src/lib/monitor/monitorTables.jsx:1629
 #: src/lib/monitor/monitorTables.jsx:1852
 msgid "Last Init Ended:"
-msgstr "最後の初期化が完了"
+msgstr "前回の初期化終了日時:"
 
 #: src/lib/monitor/monitorTables.jsx:429 src/lib/monitor/monitorTables.jsx:641
 #: src/lib/monitor/monitorTables.jsx:1631
 #: src/lib/monitor/monitorTables.jsx:1854
 msgid "Last Init Status:"
-msgstr "最後の初期化の状態"
+msgstr "前回の初期化ステータス:"
 
 #: src/lib/monitor/monitorTables.jsx:432 src/lib/monitor/monitorTables.jsx:644
 #: src/lib/monitor/monitorTables.jsx:1634
 #: src/lib/monitor/monitorTables.jsx:1857
 msgid "Last Updated Started:"
-msgstr "最後の更新の開始"
+msgstr "前回の更新開始日時:"
 
 #: src/lib/monitor/monitorTables.jsx:434 src/lib/monitor/monitorTables.jsx:646
 #: src/lib/monitor/monitorTables.jsx:1636
 #: src/lib/monitor/monitorTables.jsx:1859
 msgid "Last Update Ended:"
-msgstr "最後の更新が完了"
+msgstr "前回の更新完了日時:"
 
 #: src/lib/monitor/monitorTables.jsx:436 src/lib/monitor/monitorTables.jsx:648
 #: src/lib/monitor/monitorTables.jsx:1638
 #: src/lib/monitor/monitorTables.jsx:1861
 msgid "Last Update Status:"
-msgstr "最後の更新の状態"
+msgstr "前回の更新ステータス:"
 
 #: src/lib/monitor/monitorTables.jsx:448
 msgid "Awaken the winsync replication agreement"
-msgstr "winsyncのレプリケーション契約を覚醒させる"
+msgstr "winsyncレプリカ合意を検証し再有効化します"
 
 #: src/lib/monitor/monitorTables.jsx:451 src/lib/monitor/monitorTables.jsx:663
 msgid "Poke"
-msgstr "ポーク"
+msgstr "検証"
 
 #: src/lib/monitor/monitorTables.jsx:478 src/lib/monitor/monitorTables.jsx:690
 #: src/lib/monitor/monitorTables.jsx:1692
@@ -1304,31 +1304,31 @@ msgstr "合意がありません"
 
 #: src/lib/monitor/monitorTables.jsx:479 src/monitor.jsx:167
 msgid "Winsync Agreements"
-msgstr "Winsyncの契約書"
+msgstr "Winsync合意"
 
 #: src/lib/monitor/monitorTables.jsx:632 src/lib/monitor/monitorTables.jsx:1622
 #: src/lib/monitor/monitorTables.jsx:1845
 msgid "Changes Skipped:"
-msgstr "変更点を飛ばします："
+msgstr "スキップされた変更:"
 
 #: src/lib/monitor/monitorTables.jsx:634 src/lib/monitor/monitorTables.jsx:1624
 #: src/lib/monitor/monitorTables.jsx:1847
 msgid "Reap Active:"
-msgstr "リアップアクティブです："
+msgstr "アクティブなレプリカ:"
 
 #: src/lib/monitor/monitorTables.jsx:660
 msgid "Awaken the replication agreement"
-msgstr "レプリケーション契約を覚醒させる"
+msgstr "レプリカ合意を検証し再有効化します"
 
 #: src/lib/monitor/monitorTables.jsx:691 src/lib/monitor/monitorTables.jsx:1693
 #: src/lib/monitor/monitorTables.jsx:1914
 #: src/lib/replication/replTables.jsx:130
 msgid "Replication Agreements"
-msgstr "レプリケーション契約"
+msgstr "レプリカ合意"
 
 #: src/lib/monitor/monitorTables.jsx:808
 msgid "Connection Opened"
-msgstr "開かれた接続"
+msgstr "接続開始日時"
 
 #: src/lib/monitor/monitorTables.jsx:812
 #: src/lib/ldap_editor/wizards/operations/aciNew.jsx:1524
@@ -1347,43 +1347,43 @@ msgstr "最大スレッド"
 msgid ""
 "If connection is currently at \"Max Threads\" then it will block new "
 "operations"
-msgstr "現在、'Max Threads'になっている場合、新しい操作をブロックします。"
+msgstr "'最大スレッド'に達している場合、新しい操作をブロックします。"
 
 #: src/lib/monitor/monitorTables.jsx:849
 msgid "IP Address:"
-msgstr "IPアドレス："
+msgstr "IPアドレス:"
 
 #: src/lib/monitor/monitorTables.jsx:851
 msgid "File Descriptor:"
-msgstr "ファイルディスクリプタ"
+msgstr "ファイルディスクリプタ:"
 
 #: src/lib/monitor/monitorTables.jsx:853
 msgid "Connection Opened:"
-msgstr "開かれた接続"
+msgstr "接続の開始日時:"
 
 #: src/lib/monitor/monitorTables.jsx:855
 msgid "Operations Started:"
-msgstr "開始した操作"
+msgstr "操作の開始日時:"
 
 #: src/lib/monitor/monitorTables.jsx:857
 msgid "Connection ID:"
-msgstr "接続ID"
+msgstr "接続ID:"
 
 #: src/lib/monitor/monitorTables.jsx:859
 msgid "Operations Finished:"
-msgstr "完了した操作"
+msgstr "操作の完了日時:"
 
 #: src/lib/monitor/monitorTables.jsx:861
 msgid "Bind DN:"
-msgstr "バインドDN："
+msgstr "バインドDN:"
 
 #: src/lib/monitor/monitorTables.jsx:863
 msgid "Read/write Blocked:"
-msgstr "読み込み/書き込みはブロックされました："
+msgstr "ブロックされた読み込み/書き込み:"
 
 #: src/lib/monitor/monitorTables.jsx:866
 msgid "Connection Currently At Max Threads:"
-msgstr "現在の接続は最大スレッドになっているか："
+msgstr "現在の接続は最大スレッドになっているか:"
 
 #: src/lib/monitor/monitorTables.jsx:867 src/lib/notifications.jsx:90
 #: src/lib/replication/replModals.jsx:1565
@@ -1404,7 +1404,7 @@ msgstr "最大スレッド数によってブロックされた操作の数:"
 
 #: src/lib/monitor/monitorTables.jsx:1051
 msgid "Client Connections:"
-msgstr "クライアント接続："
+msgstr "クライアント接続:"
 
 #: src/lib/monitor/monitorTables.jsx:1056
 msgid "Search connections"
@@ -1578,7 +1578,7 @@ msgstr "名前"
 
 #: src/lib/monitor/monitorTables.jsx:2049
 msgid "There is no saved replication monitor connections"
-msgstr "保存されたレプリケーションモニターの接続はありません"
+msgstr "保存されたレプリケーション監視の接続はありません"
 
 #: src/lib/monitor/monitorTables.jsx:2050
 msgid "Replication Connections"
@@ -1586,17 +1586,17 @@ msgstr "レプリケーション接続"
 
 #: src/lib/monitor/monitorTables.jsx:2119
 msgid "There are no saved replication monitor aliases"
-msgstr "保存されたレプリケーションモニターエイリアスはありません"
+msgstr "保存されたレプリケーション監視のエイリアスはありません"
 
 #: src/lib/monitor/monitorTables.jsx:2120
 msgid "Replication Monitoring Aliases"
-msgstr "レプリケーションモニターエイリアス"
+msgstr "レプリケーション監視のエイリアス"
 
 #: src/lib/monitor/replMonitor.jsx:287
 msgid ""
 "Failed to get config nsslapd-port, nsslapd-localhost and nasslapd-rootdn: $0"
 msgstr ""
-"nsslapd-port、nsslapd-localhost、nsslapd-rootdnの取得に失敗しました：$0"
+"nsslapd-port、nsslapd-localhost、nsslapd-rootdnの取得に失敗しました: $0"
 
 #: src/lib/monitor/replMonitor.jsx:362
 msgid "Delete replica connection"
@@ -1608,7 +1608,7 @@ msgstr "レプリカエイリアスの削除"
 
 #: src/lib/monitor/replMonitor.jsx:392
 msgid "The agreement doesn't exist!"
-msgstr "契約書が存在しません！"
+msgstr "合意が存在しません！"
 
 #: src/lib/monitor/replMonitor.jsx:428
 msgid "Host, Port, and Bind DN are required."
@@ -1617,12 +1617,12 @@ msgstr "Host、Port、Bind DNは必須です。"
 #: src/lib/monitor/replMonitor.jsx:430
 msgid "Password field can't be empty, if Interractive Input is not selected"
 msgstr ""
-"インターラクティブ入力が選択されていない場合、パスワードフィールドを空にする"
-"ことはできません。"
+"対話型入力が選択されていない場合、パスワードフィールドを空にする"
+"ことはできません"
 
 #: src/lib/monitor/replMonitor.jsx:459
 msgid "Credentials \"$0:$1\" already exists"
-msgstr "認証情報 \"$0:$1\" はすでに存在します。"
+msgstr "認証情報 \"$0:$1\" はすでに存在します"
 
 #: src/lib/monitor/replMonitor.jsx:593
 msgid "Host, Port, and Alias are required."
@@ -1634,11 +1634,11 @@ msgstr "エイリアス$0は既に存在します"
 
 #: src/lib/monitor/replMonitor.jsx:756
 msgid "Successfully saved monitor configuration to the .dsrc file"
-msgstr "モニター設定の.dsrcファイルへの保存に成功しました"
+msgstr "監視設定の.dsrcファイルへの保存に成功しました"
 
 #: src/lib/monitor/replMonitor.jsx:766
 msgid "Failed to delete from .dsrc file: $0"
-msgstr ".dsrc ファイルからの削除に失敗しました： $0"
+msgstr ".dsrc ファイルからの削除に失敗しました: $0"
 
 #: src/lib/monitor/replMonitor.jsx:774
 msgid "Failed to add to .dsrc content: $0"
@@ -1646,11 +1646,11 @@ msgstr ".dsrc コンテンツへの追加に失敗しました: $0"
 
 #: src/lib/monitor/replMonitor.jsx:785
 msgid "Failed to get .dsrc content: $0"
-msgstr ".dsrc コンテンツの取得に失敗しました： $0"
+msgstr ".dsrc コンテンツの取得に失敗しました: $0"
 
 #: src/lib/monitor/replMonitor.jsx:925
 msgid "Sync report has failed - $0"
-msgstr "シンクレポートに失敗しました - $0"
+msgstr "同期レポートに失敗しました - $0"
 
 #: src/lib/monitor/replMonitor.jsx:1017
 msgid "Bind DN and password are required."
@@ -1663,11 +1663,11 @@ msgstr ".dsrc 情報の更新に失敗しました: $0"
 
 #: src/lib/monitor/replMonitor.jsx:1205
 msgid "Successfully added connection to .dsrc config file"
-msgstr ".dsrc 設定ファイルへの接続の追加に成功しました。"
+msgstr ".dsrc 設定ファイルへの接続の追加に成功しました"
 
 #: src/lib/monitor/replMonitor.jsx:1236
 msgid "Successfully added alias to .dsrc config file"
-msgstr ".dsrc設定ファイルへのエイリアスの追加に成功しました。"
+msgstr ".dsrc設定ファイルへのエイリアスの追加に成功しました"
 
 #: src/lib/monitor/replMonitor.jsx:1319
 msgid "Generate Report"
@@ -1683,7 +1683,7 @@ msgstr "作成する"
 
 #: src/lib/monitor/replMonitor.jsx:1329
 msgid "Saved Report Configuration"
-msgstr "レポート設定を保存しました"
+msgstr "保存済みのレポート設定"
 
 #: src/lib/monitor/replMonitor.jsx:1331
 msgid "Replica Credentials"
@@ -1691,7 +1691,7 @@ msgstr "レプリカ認証情報"
 
 #: src/lib/monitor/replMonitor.jsx:1341
 msgid "Add a replica credential to the .dsrc file"
-msgstr ".dsrc ファイルにレプリカの認証情報を追加する。"
+msgstr ".dsrc ファイルにレプリカの認証情報を追加する"
 
 #: src/lib/monitor/replMonitor.jsx:1343
 msgid "Add Connection"
@@ -1723,7 +1723,7 @@ msgstr "ヘルプを表示"
 
 #: src/lib/monitor/replMonitor.jsx:1387
 msgid "How To Use Replication Sync Report"
-msgstr "レプリケーション・シンクレポートの使用方法"
+msgstr "レプリケーション同期レポートの使用方法"
 
 #: src/lib/monitor/replMonitor.jsx:1392
 msgid "Update The <b>Replication Credentials</b>"
@@ -1734,8 +1734,8 @@ msgid ""
 "• Initially, the table is populated with the local instance's replication "
 "agreements, which includes the local instance."
 msgstr ""
-"初期状態では、このテーブルにはローカルインスタンスのレプリケーションアグリー"
-"メントが入力されています。"
+"初期状態では、このテーブルにはローカルインスタンスを含むレプリカ合意が設定さ"
+"れています。"
 
 #: src/lib/monitor/replMonitor.jsx:1396
 msgid ""
@@ -1749,7 +1749,7 @@ msgid ""
 "• It is advised to use an <b>Interactive Input</b> option for the password "
 "because it's more secure."
 msgstr ""
-"パスワードはインタラクティブ入力オプションを使用するのがより安全なのでお勧め"
+"パスワードは対話型入力オプションを使用するのがより安全なのでお勧め"
 "です。"
 
 #: src/lib/monitor/replMonitor.jsx:1402
@@ -1766,15 +1766,15 @@ msgid ""
 "this: <b> Alias</b>=Main Supplier, <b>Hostname</b>=192.168.122.01, <b>Port</"
 "b>=38901"
 msgstr ""
-"各Replicaは1つのエイリアスを持つことができます。For example, you can give "
-"names like this:Alias=Main Supplier,Hostname=192.168.122.01, Port=38901"
+"各レプリカは1つのエイリアスを持つことができます。例えば"
+"次のようなエイリアスを追加できます: this:Alias=Main Supplier, Hostname=192.168.122.01, Port=38901"
 
 #: src/lib/monitor/replMonitor.jsx:1407
 msgid ""
 "• In the report result, the report will have an entry like this: <b> "
 "Supplier: Main Supplier (192.168.122.01:38901)</b>."
 msgstr ""
-"レポート結果では、このような項目が表示されます：Supplier: Main Supplier "
+"レポート結果では、このような項目が表示されます: Supplier: Main Supplier "
 "(192.168.122.01:38901)"
 
 #: src/lib/monitor/replMonitor.jsx:1412
@@ -1789,11 +1789,11 @@ msgstr "レポート作成が開始されます。"
 msgid ""
 "• You may be asked for the credentials while the process is running through "
 "the agreements."
-msgstr "契約書による処理中に認証情報の入力を求められることがあります。"
+msgstr "合意処理中に認証情報の入力を求められることがあります。"
 
 #: src/lib/monitor/replMonitor.jsx:1438
 msgid "Save the report configuration in the .dsrc file for future use."
-msgstr "レポート設定を .dsrc ファイルに保存して、今後使用します。"
+msgstr "後で使用できるよう、レポート設定を .dsrc ファイルに保存します。"
 
 #: src/lib/monitor/replMonitor.jsx:1440
 msgid "Save Report Configuration"
@@ -1817,8 +1817,8 @@ msgid ""
 "There is already an existing monitor configuration, and if you proceed it "
 "will be completely overwritten with the new configuraton."
 msgstr ""
-"サーバの '~/.dsrc' ファイルに保存できるモニター設定は1つだけです。すでに既存"
-"のモニター設定がありますが、このまま進むと新しい設定で完全に上書きされます。"
+"サーバの '~/.dsrc' ファイルに保存できる監視設定は1つだけです。すでに既存"
+"の監視設定がありますが、このまま進むと新しい設定で完全に上書きされます。"
 
 #: src/lib/monitor/replMonitor.jsx:1504
 msgid ""
@@ -1865,7 +1865,7 @@ msgstr "本当に続けますか？"
 
 #: src/lib/monitor/replMonitor.jsx:1565
 msgid "Overwrite Monitor Configuration"
-msgstr "モニター設定を上書き"
+msgstr "監視設定を上書き"
 
 #: src/lib/monitor/replMonitor.jsx:1567
 msgid "Writing DSRC ..."
@@ -1879,7 +1879,7 @@ msgstr "DSRCを書き込み"
 msgid "Reloading access log..."
 msgstr "アクセスログを更新しています..."
 
-#: src/lib/monitor/accesslog.jsx:113 src/server.jsx:170 src/monitor.jsx:244
+#: src/lib/monitor/accesslog.jsx:113 src/monitor.jsx:244 src/server.jsx:170
 msgid "Access Log"
 msgstr "アクセスログ"
 
@@ -1891,7 +1891,7 @@ msgstr "アクセスログを更新する"
 msgid "Reloading audit failure log..."
 msgstr "監査失敗ログを更新しています..."
 
-#: src/lib/monitor/auditfaillog.jsx:107 src/server.jsx:180 src/monitor.jsx:256
+#: src/lib/monitor/auditfaillog.jsx:107 src/monitor.jsx:256 src/server.jsx:180
 msgid "Audit Failure Log"
 msgstr "監査失敗ログ"
 
@@ -1903,7 +1903,7 @@ msgstr "監査失敗ログを更新する"
 msgid "Reloading audit log..."
 msgstr "監査ログを更新しています..."
 
-#: src/lib/monitor/auditlog.jsx:106 src/server.jsx:175 src/monitor.jsx:250
+#: src/lib/monitor/auditlog.jsx:106 src/monitor.jsx:250 src/server.jsx:175
 msgid "Audit Log"
 msgstr "監査ログ"
 
@@ -1915,7 +1915,7 @@ msgstr "監査ログを更新する"
 msgid "Reloading errors log..."
 msgstr "エラーログを更新しています..."
 
-#: src/lib/monitor/errorlog.jsx:167 src/server.jsx:185 src/monitor.jsx:262
+#: src/lib/monitor/errorlog.jsx:167 src/monitor.jsx:262 src/server.jsx:185
 msgid "Errors Log"
 msgstr "エラーログ"
 
@@ -3048,7 +3048,7 @@ msgstr "値は有効なDNである必要があります"
 msgid ""
 "Specifies a path to the Referential integrity logfile. For example: /var/log/"
 "dirsrv/slapd-"
-msgstr "参照整合性ログファイルへのパスを指定します。例：/var/log/dirsrv/slapd-"
+msgstr "参照整合性ログファイルへのパスを指定します。例:/var/log/dirsrv/slapd-"
 
 #: src/lib/plugins/referentialIntegrity.jsx:1132
 msgid "Invalid log nameN"
@@ -3625,7 +3625,7 @@ msgid ""
 "attribute regenerated."
 msgstr ""
 "これはオプションです。修正対象のエントリを検索するためのフィルタを指定しま"
-"す。 例：(uid=*) 省略した場合、指定されたサブツリーDN配下にあるオブジェクトク"
+"す。 例:(uid=*) 省略した場合、指定されたサブツリーDN配下にあるオブジェクトク"
 "ラス 'inetuser'、'inetadmin'、または 'nsmemberof' を持つすべてのエントリの"
 "memberOf属性が再生成されます。"
 
@@ -4439,7 +4439,7 @@ msgid ""
 "URL."
 msgstr ""
 "認証用ディレクトリのホスト名です。ディレクトリサーバのポート番号は、コロンと"
-"ポート番号を追加することで指定できます。(例：dirserver.example.com:389 ) ポー"
+"ポート番号を追加することで指定できます。(例: dirserver.example.com:389 ) ポー"
 "ト番号が指定されていない場合、PTAサーバは標準ポートのいずれかを使用して接続を"
 "試行します。URLにldap://が指定されている場合は、ポート389を使用します。URLに"
 "ldaps://が指定されている場合は、ポート636を使用して接続を試みます。"
@@ -4988,7 +4988,7 @@ msgstr "無効"
 
 #: src/lib/database/databaseTables.jsx:1029
 msgid "Uses: "
-msgstr "使用します："
+msgstr "使用します: "
 
 #: src/lib/database/databaseTables.jsx:1056
 #: src/lib/ldap_editor/wizards/operations/aciNew.jsx:898
@@ -4996,19 +4996,19 @@ msgstr "使用します："
 #: src/lib/ldap_editor/wizards/operations/addGroup.jsx:482
 #: src/lib/ldap_editor/wizards/operations/editGroup.jsx:488
 msgid "Search Base:"
-msgstr "検索ベース："
+msgstr "検索ベース:"
 
 #: src/lib/database/databaseTables.jsx:1062 src/lib/server/serverTables.jsx:114
 msgid "Search Filter:"
-msgstr "検索フィルタ："
+msgstr "検索フィルタ:"
 
 #: src/lib/database/databaseTables.jsx:1068
 msgid "Scope:"
-msgstr "スコープ："
+msgstr "スコープ:"
 
 #: src/lib/database/databaseTables.jsx:1074
 msgid "Sort Indexes:"
-msgstr "インデックスを並べ替える："
+msgstr "インデックスを並べ替える:"
 
 #: src/lib/database/databaseTables.jsx:1087 src/lib/database/vlvIndexes.jsx:553
 msgid "Create Sort Index"
@@ -6454,7 +6454,7 @@ msgid ""
 "number of locks are not decreased. It helps to avoid DB corruption and long "
 "recovery. (nsslapd-db-locks-monitoring-threshold)."
 msgstr ""
-"DBロック枯渇値をパーセントで設定します。(有効範囲：70～95)ロック取得数が多す"
+"DBロック枯渇値をパーセントで設定します。(有効範囲: 70～95)ロック取得数が多す"
 "ぎる場合、ロック数が減らない間はサーバが検索を中止します。DBの破損や復旧に時"
 "間がかかるのを防ぐのに役立ちます。(nsslapd-db-locks-monitoring-threshold)"
 
@@ -7152,8 +7152,8 @@ msgid ""
 "Set the backend type.  Warning, changing this setting could lead to "
 "unexpected database behavior."
 msgstr ""
-"バックエンドのタイプを設定してください。警告：この設定を変更すると、予期しな"
-"いデータベースの動作が発生する可能性があります。"
+"バックエンドのタイプを設定してください。警告:この設定を変更すると、予期しない"
+"データベースの動作が発生する可能性があります。"
 
 #: src/lib/database/suffixConfig.jsx:144
 msgid "Backend State"
@@ -7203,7 +7203,7 @@ msgstr "VLVソートインデックスの削除中にエラーが発生しまし
 
 #: src/lib/database/vlvIndexes.jsx:287
 msgid "Successfully added VLV search: "
-msgstr "VLVサーチの追加に成功しました："
+msgstr "VLVサーチの追加に成功しました: "
 
 #: src/lib/database/vlvIndexes.jsx:298
 msgid "Failed create VLV search entry - $0"
@@ -7378,55 +7378,55 @@ msgstr "合意情報の取得に失敗しました : \"$0\" - $1"
 
 #: src/lib/replication/replAgmts.jsx:1225
 msgid "Successfully updated replication agreement"
-msgstr "レプリケーション合意を更新しました"
+msgstr "レプリカ合意を更新しました"
 
 #: src/lib/replication/replAgmts.jsx:1231
 msgid "Failed to update replication agreement - $0"
-msgstr "レプリケーション合意の更新に失敗しました - $0"
+msgstr "レプリカ合意の更新に失敗しました - $0"
 
 #: src/lib/replication/replAgmts.jsx:1259
 msgid "Successfully poked replication agreement"
-msgstr "レプリケーション合意を取得しました"
+msgstr "レプリカ合意の検証に成功しました"
 
 #: src/lib/replication/replAgmts.jsx:1266
 msgid "Failed to poke replication agreement - $0"
-msgstr "レプリケーション合意の取得に失敗しました - $0"
+msgstr "レプリカ合意の検証に失敗しました - $0"
 
 #: src/lib/replication/replAgmts.jsx:1297
 msgid "Failed to initialize replication agreement - $0"
-msgstr "レプリケーション合意の初期化に失敗しました - $0"
+msgstr "レプリカ合意の初期化に失敗しました - $0"
 
 #: src/lib/replication/replAgmts.jsx:1349
 msgid "Successfully enabled replication agreement"
-msgstr "レプリケーション合意を有効化しました"
+msgstr "レプリカ合意を有効化しました"
 
 #: src/lib/replication/replAgmts.jsx:1355
 msgid "Failed to enabled replication agreement - $0"
-msgstr "レプリケーション合意の有効化に失敗しました - $0"
+msgstr "レプリカ合意の有効化に失敗しました - $0"
 
 #: src/lib/replication/replAgmts.jsx:1374
 msgid "Successfully disabled replication agreement"
-msgstr "レプリケーション合意を無効化しました"
+msgstr "レプリカ合意を無効化しました"
 
 #: src/lib/replication/replAgmts.jsx:1380
 msgid "Failed to disable replication agreement - $0"
-msgstr "レプリケーション合意の無効化に失敗しました - $0"
+msgstr "レプリカ合意の無効化に失敗しました - $0"
 
 #: src/lib/replication/replAgmts.jsx:1398
 msgid "Successfully deleted replication agreement"
-msgstr "レプリケーション合意を削除しました"
+msgstr "レプリカ合意を削除しました"
 
 #: src/lib/replication/replAgmts.jsx:1407
 msgid "Failed to delete replication agreement - $0"
-msgstr "レプリケーション合意の削除に失敗しました - $0"
+msgstr "レプリカ合意の削除に失敗しました - $0"
 
 #: src/lib/replication/replAgmts.jsx:1513
 msgid "Successfully created replication agreement"
-msgstr "レプリケーション合意を作成しました"
+msgstr "レプリカ合意を作成しました"
 
 #: src/lib/replication/replAgmts.jsx:1522
 msgid "Failed to create replication agreement - $0"
-msgstr "レプリケーション合意の作成に失敗しました - $0"
+msgstr "レプリカ合意の作成に失敗しました - $0"
 
 #: src/lib/replication/replAgmts.jsx:1615
 #: src/lib/replication/winsyncAgmts.jsx:1224
@@ -7440,15 +7440,15 @@ msgstr "合意の更新"
 
 #: src/lib/replication/replAgmts.jsx:1744
 msgid "Delete Replication Agreement"
-msgstr "レプリケーション合意の削除"
+msgstr "レプリカ合意の削除"
 
 #: src/lib/replication/replAgmts.jsx:1745
 msgid "Are you sure you want to delete this replication agreement?"
-msgstr "レプリケーション合意を削除しますか？"
+msgstr "レプリカ合意を削除しますか？"
 
 #: src/lib/replication/replAgmts.jsx:1746
 msgid "Deleting Replication Agreement ..."
-msgstr "レプリケーション合意を削除しています..."
+msgstr "レプリカ合意を削除しています..."
 
 #: src/lib/replication/replAgmts.jsx:1747
 #: src/lib/replication/winsyncAgmts.jsx:1335
@@ -7458,15 +7458,15 @@ msgstr "合意の削除"
 
 #: src/lib/replication/replAgmts.jsx:1757
 msgid "Initialize Replication Agreement"
-msgstr "レプリケーション合意の初期化"
+msgstr "レプリカ合意の初期化"
 
 #: src/lib/replication/replAgmts.jsx:1758
 msgid "Are you sure you want to initialize this replication agreement?"
-msgstr "レプリケーション合意を初期化しますか？"
+msgstr "レプリカ合意を初期化しますか？"
 
 #: src/lib/replication/replAgmts.jsx:1759
 msgid "Initializing Replication Agreement ..."
-msgstr "レプリケーション合意を初期化しています"
+msgstr "レプリカ合意を初期化しています"
 
 #: src/lib/replication/replAgmts.jsx:1760
 #: src/lib/replication/winsyncAgmts.jsx:1348
@@ -7476,11 +7476,11 @@ msgstr "合意の初期化"
 
 #: src/lib/replication/replAgmts.jsx:1770
 msgid "Enable Replication Agreement"
-msgstr "レプリケーション合意を有効にする"
+msgstr "レプリカ合意を有効にする"
 
 #: src/lib/replication/replAgmts.jsx:1771
 msgid "Are you sure you want to enable this replication agreement?"
-msgstr "レプリケーション合意を有効化しますか？"
+msgstr "レプリカ合意を有効化しますか？"
 
 #: src/lib/replication/replAgmts.jsx:1772
 msgid "Enabling ..."
@@ -7493,11 +7493,11 @@ msgstr "合意を有効にする"
 
 #: src/lib/replication/replAgmts.jsx:1783
 msgid "Disable Replication Agreement"
-msgstr "レプリケーション合意を無効化"
+msgstr "レプリカ合意を無効化"
 
 #: src/lib/replication/replAgmts.jsx:1784
 msgid "Are you sure you want to disable this replication agreement?"
-msgstr "レプリケーション合意を無効化しますか？"
+msgstr "レプリカ合意を無効化しますか？"
 
 #: src/lib/replication/replAgmts.jsx:1785 src/security.jsx:1308
 msgid "Disabling ..."
@@ -7954,11 +7954,11 @@ msgstr "winsync合意の更新に失敗しました"
 
 #: src/lib/replication/winsyncAgmts.jsx:903
 msgid "Successfully poked winsync agreement"
-msgstr "winsync合意を取得しました"
+msgstr "winsync合意の検証に成功しました"
 
 #: src/lib/replication/winsyncAgmts.jsx:910
 msgid "Failed to poke winsync agreement - $0"
-msgstr "winsync合意の取得に失敗しました - $0"
+msgstr "winsync合意の検証に失敗しました - $0"
 
 #: src/lib/replication/winsyncAgmts.jsx:942
 msgid "Failed to initialize winsync agreement - $0"
@@ -8066,7 +8066,7 @@ msgstr "合意の編集"
 
 #: src/lib/replication/replTables.jsx:72
 msgid "Poke Agreement"
-msgstr "合意の取得"
+msgstr "合意の検証"
 
 #: src/lib/replication/replTables.jsx:77
 msgid "Disable/Enable Agreement"
@@ -8230,7 +8230,7 @@ msgstr "Windowsサブツリー"
 
 #: src/lib/replication/replModals.jsx:514
 msgid "e.g. cn=Users,dc=domain,dc=com"
-msgstr "例：cn=Users,dc=domain,dc=com"
+msgstr "例: cn=Users,dc=domain,dc=com"
 
 #: src/lib/replication/replModals.jsx:522
 msgid "Directory Server subtree to synchronize"
@@ -8242,7 +8242,7 @@ msgstr "DSサブツリー"
 
 #: src/lib/replication/replModals.jsx:536
 msgid "e.g. ou=People,dc=domain,dc=com"
-msgstr "例：ou=People,dc=domain,dc=com"
+msgstr "例: ou=People,dc=domain,dc=com"
 
 #: src/lib/replication/replModals.jsx:548
 #: src/lib/replication/replModals.jsx:914
@@ -8656,7 +8656,7 @@ msgstr "RUV&タスク"
 
 #: src/lib/replication/replSuffix.jsx:391
 msgid "Disable replication, and remove all replication agreements."
-msgstr "レプリケーションを無効にし、すべてのレプリケーション合意を削除します。"
+msgstr "レプリケーションを無効にし、すべてのレプリカ合意を削除します。"
 
 #: src/lib/replication/replSuffix.jsx:393 src/security.jsx:1309
 msgid "Disable"
@@ -8710,7 +8710,7 @@ msgstr "これは非表示のLDAPサブエントリです"
 
 #: src/lib/ldap_editor/search.jsx:499
 msgid "Error searching the database: $0"
-msgstr "データベースの検索中にエラーが発生しました： $0"
+msgstr "データベースの検索中にエラーが発生しました: $0"
 
 #: src/lib/ldap_editor/search.jsx:619 src/lib/ldap_editor/search.jsx:646
 #: src/lib/ldap_editor/treeView.jsx:475 src/lib/ldap_editor/treeView.jsx:494
@@ -8781,7 +8781,7 @@ msgstr "テキストでエントリを検索"
 
 #: src/lib/ldap_editor/search.jsx:839
 msgid "Enter an LDAP search filter ..."
-msgstr "LDAP検索フィルタを入力してください ..."
+msgstr "フィルタでLDAPエントリを検索"
 
 #: src/lib/ldap_editor/search.jsx:852
 msgid "Hide Search Criteria"
@@ -8916,7 +8916,7 @@ msgstr "検索"
 
 #: src/lib/ldap_editor/search.jsx:1125
 msgid "Results:"
-msgstr "結果："
+msgstr "結果:"
 
 #: src/lib/ldap_editor/search.jsx:1148 src/LDAPEditor.jsx:1239
 msgid "Are you sure you want to $0 the $1?"
@@ -8957,7 +8957,7 @@ msgstr "メッセージ"
 
 #: src/lib/ldap_editor/treeView.jsx:283
 msgid ":ENTRY TOO LARGE - OUTPUT TRUNCATED!"
-msgstr "：エントリが大きすぎるため、出力が切り捨てられました。"
+msgstr ": エントリが大きすぎるため、出力が切り捨てられました。"
 
 #: src/lib/ldap_editor/treeView.jsx:535 src/LDAPEditor.jsx:1029
 msgid "Rename ..."
@@ -9317,7 +9317,7 @@ msgstr "ACIの置き換えに成功しました"
 
 #: src/lib/ldap_editor/wizards/aci.jsx:175
 msgid "Failed to update ACI: error $0 - $1"
-msgstr "ACIの置き換えに失敗しました：エラー $0 - $1"
+msgstr "ACIの置き換えに失敗しました: エラー $0 - $1"
 
 #: src/lib/ldap_editor/wizards/aci.jsx:204
 msgid "Successfully removed ACI"
@@ -9325,7 +9325,7 @@ msgstr "ACIの削除に成功しました"
 
 #: src/lib/ldap_editor/wizards/aci.jsx:210
 msgid "Failed to remove ACI: error $0 - $1"
-msgstr "ACIの削除に失敗しました：エラー $0 - $1"
+msgstr "ACIの削除に失敗しました: エラー $0 - $1"
 
 #: src/lib/ldap_editor/wizards/aci.jsx:239
 #: src/lib/ldap_editor/wizards/operations/aciNew.jsx:1321
@@ -9334,7 +9334,7 @@ msgstr "ACIの追加に成功しました"
 
 #: src/lib/ldap_editor/wizards/aci.jsx:245
 msgid "Failed to add ACI: error $0 - $1"
-msgstr "ACIの追加に失敗しました：エラー $0 - $1"
+msgstr "ACIの追加に失敗しました: エラー $0 - $1"
 
 #: src/lib/ldap_editor/wizards/aci.jsx:397
 msgid "Save ACI"
@@ -9532,7 +9532,7 @@ msgstr "ACIの追加に成功しました！"
 
 #: src/lib/ldap_editor/wizards/operations/aciNew.jsx:600
 msgid "Failed to add ACI, error: "
-msgstr "の追加に失敗しました、エラー："
+msgstr "の追加に失敗しました、エラー: "
 
 #: src/lib/ldap_editor/wizards/operations/aciNew.jsx:801
 msgid "Choose a name for this ACI, and set the Target"
@@ -9649,14 +9649,14 @@ msgid ""
 msgstr ""
 "特定のサブツリー間でエントリの移動のアクセスを制御する必要がある場合は、"
 "target_fromおよびtarget_toキーワードを使用します。これらのキーワードは、LDAP "
-"URLを使用してデータベースのリソース/場所を指定します：ldap ldap:"
+"URLを使用してデータベースのリソース/場所を指定します: ldap ldap:"
 
 #: src/lib/ldap_editor/wizards/operations/aciNew.jsx:1094
 msgid ""
 "Specifies the entries that can be moved.  Example: ldap:///uid=*,cn=staging,"
 "dc=example,dc=com"
 msgstr ""
-"移動できるエントリを指定します。例：ldap:///uid=*,cn=staging,dc=example,"
+"移動できるエントリを指定します。例: ldap:///uid=*,cn=staging,dc=example,"
 "dc=com"
 
 #: src/lib/ldap_editor/wizards/operations/aciNew.jsx:1095
@@ -10039,7 +10039,7 @@ msgstr "CoS の定義の作成に成功しました！"
 
 #: src/lib/ldap_editor/wizards/operations/addCosDefinition.jsx:218
 msgid "Failed to create cos: "
-msgstr "cosの作成に失敗しました："
+msgstr "cosの作成に失敗しました: "
 
 #: src/lib/ldap_editor/wizards/operations/addCosDefinition.jsx:814
 msgid "Select Name And CoS Type"
@@ -10107,7 +10107,7 @@ msgstr "CoSテンプレートを検索"
 
 #: src/lib/ldap_editor/wizards/operations/addCosDefinition.jsx:944
 msgid "CoS Template Selected:"
-msgstr "選択されたCoSテンプレート："
+msgstr "選択されたCoSテンプレート: "
 
 #: src/lib/ldap_editor/wizards/operations/addCosDefinition.jsx:958
 msgid "Choose The New CoS Template Parent DN"
@@ -10344,7 +10344,7 @@ msgstr "テンプレートの作成"
 #: src/lib/ldap_editor/wizards/operations/addCosDefinition.jsx:1383
 #: src/lib/ldap_editor/wizards/operations/addCosTemplate.jsx:1267
 msgid "Parent DN:"
-msgstr "親DN："
+msgstr "親DN:"
 
 #: src/lib/ldap_editor/wizards/operations/addCosDefinition.jsx:1392
 msgid "Add A CoS Definition"
@@ -10356,7 +10356,7 @@ msgstr "ユーザの追加に成功しました！"
 
 #: src/lib/ldap_editor/wizards/operations/addUser.jsx:192
 msgid "Failed to add user, error: "
-msgstr "ユーザの追加に失敗しました、エラー："
+msgstr "ユーザの追加に失敗しました、エラー: "
 
 #: src/lib/ldap_editor/wizards/operations/addUser.jsx:574
 #: src/lib/ldap_editor/wizards/operations/addRole.jsx:677
@@ -10400,7 +10400,7 @@ msgid ""
 msgstr ""
 "- このタイプのユーザエントリは、ベーシックアカウント(nsPerson、nsAccount、"
 "nsOrgPerson、posixAccount)と同様のオブジェクトクラスセットを使用しますが、以"
-"下のようなPOSIX属性も含まれています："
+"下のようなPOSIX属性も含まれています:"
 
 #: src/lib/ldap_editor/wizards/operations/addUser.jsx:607
 msgid "uidNumber, gidNumber, homeDirectory, loginShell, and gecos"
@@ -10484,7 +10484,7 @@ msgstr "ユーザの作成"
 #: src/lib/ldap_editor/wizards/operations/addLdapEntry.jsx:987
 #: src/lib/ldap_editor/wizards/operations/genericUpdate.jsx:682
 msgid "Parent DN: "
-msgstr "親DN："
+msgstr "親DN: "
 
 #: src/lib/ldap_editor/wizards/operations/addUser.jsx:818
 msgid "Add A User"
@@ -10500,7 +10500,7 @@ msgstr "エントリ名の変更に成功しました！"
 
 #: src/lib/ldap_editor/wizards/operations/renameEntry.jsx:82
 msgid "Failed to rename entry, error: "
-msgstr "エントリの削除に失敗しました、エラー："
+msgstr "エントリの削除に失敗しました、エラー: "
 
 #: src/lib/ldap_editor/wizards/operations/renameEntry.jsx:93
 msgid ""
@@ -10615,7 +10615,7 @@ msgstr "グループの作成に成功しました！"
 
 #: src/lib/ldap_editor/wizards/operations/addGroup.jsx:115
 msgid "Failed to create group, error: "
-msgstr "グループの作成に失敗しました、エラー："
+msgstr "グループの作成に失敗しました、エラー: "
 
 #: src/lib/ldap_editor/wizards/operations/addGroup.jsx:333
 #: src/lib/ldap_editor/wizards/operations/addGroup.jsx:616
@@ -10777,7 +10777,7 @@ msgstr "エントリの追加に成功しました!"
 #: src/lib/ldap_editor/wizards/operations/genericUpdate.jsx:107
 #: src/lib/ldap_editor/wizards/operations/addCosTemplate.jsx:174
 msgid "Failed to add entry, error: "
-msgstr "エントリの追加に失敗しました、エラー："
+msgstr "エントリの追加に失敗しました、エラー: "
 
 #: src/lib/ldap_editor/wizards/operations/addLdapEntry.jsx:741
 #: src/lib/ldap_editor/wizards/operations/addLdapEntry.jsx:949
@@ -10828,7 +10828,7 @@ msgstr "$0メンバー$1の追加に成功しました"
 #: src/lib/ldap_editor/wizards/operations/editGroup.jsx:338
 #: src/lib/ldap_editor/wizards/operations/editGroup.jsx:359
 msgid "Failed to update group, error code: "
-msgstr "グループの更新に失敗しました、エラーコード："
+msgstr "グループの更新に失敗しました、エラーコード: "
 
 #: src/lib/ldap_editor/wizards/operations/editGroup.jsx:354
 msgid "Successfully updated group"
@@ -10881,7 +10881,7 @@ msgstr "エントリの変更に成功しました！"
 
 #: src/lib/ldap_editor/wizards/operations/editLdapEntry.jsx:132
 msgid "Failed to modify entry, error: "
-msgstr "エントリの変更に失敗しました、エラー："
+msgstr "エントリの変更に失敗しました、エラー: "
 
 #: src/lib/ldap_editor/wizards/operations/editLdapEntry.jsx:836
 msgid "Keep"
@@ -10921,7 +10921,7 @@ msgstr "エントリを変更"
 
 #: src/lib/ldap_editor/wizards/operations/editLdapEntry.jsx:1477
 msgid "Entry DN: "
-msgstr "エントリDN："
+msgstr "エントリDN: "
 
 #: src/lib/ldap_editor/wizards/operations/editLdapEntry.jsx:1485
 msgid "Edit An LDAP Entry"
@@ -10933,7 +10933,7 @@ msgstr "無効なRDN - 値が空です！"
 
 #: src/lib/ldap_editor/wizards/operations/genericUpdate.jsx:552
 msgid "The full DN of the entry will be: "
-msgstr "エントリのフルDNは、このようになります："
+msgstr "エントリのフルDNは、このようになります: "
 
 #: src/lib/ldap_editor/wizards/operations/genericUpdate.jsx:581
 msgid "LDIF Content for Entry Creation"
@@ -11003,7 +11003,7 @@ msgstr "ロールの作成に成功しました！"
 
 #: src/lib/ldap_editor/wizards/operations/addRole.jsx:171
 msgid "Failed to create role, error: "
-msgstr "ロールの作成に失敗しました、エラー："
+msgstr "ロールの作成に失敗しました、エラー: "
 
 #: src/lib/ldap_editor/wizards/operations/addRole.jsx:684
 msgid "Select Name And Role Type"
@@ -11107,7 +11107,7 @@ msgid ""
 "The relative distinguished name (RDN) of the template entry is determined by "
 "one of the following:"
 msgstr ""
-"テンプレートエントリの相対識別名(RDN)は、次のいずれかによって決定されます："
+"テンプレートエントリの相対識別名(RDN)は、次のいずれかによって決定されます:"
 
 #: src/lib/ldap_editor/wizards/operations/addCosTemplate.jsx:881
 msgid ""
@@ -11185,7 +11185,11 @@ msgstr "エントリの削除が成功しました"
 
 #: src/lib/ldap_editor/wizards/deleteOperation.jsx:96
 msgid "Failed to delete entry, error: "
-msgstr "エントリの削除に失敗しました、エラー："
+msgstr "エントリの削除に失敗しました、エラー: "
+
+#: src/lib/ldap_editor/wizards/deleteOperation.jsx:156
+msgid "It has child entries which will also be recursively deleted."
+msgstr "子エントリも再帰的に削除されます。"
 
 #: src/lib/ldap_editor/wizards/deleteOperation.jsx:165
 msgid "Delete Acknowledgement"
@@ -14254,7 +14258,7 @@ msgstr "プラグイン"
 
 #: src/ds.jsx:813
 msgid "Monitoring"
-msgstr "モニタリング"
+msgstr "監視"
 
 #: src/ds.jsx:821
 msgid "LDAP Browser"
@@ -14537,7 +14541,7 @@ msgstr "winsync合意の読み込みに失敗しました - $0"
 
 #: src/replication.jsx:913
 msgid "Error loading replication agreements configuration - $0"
-msgstr "レプリケーション合意設定の読み込みに失敗しました - $0"
+msgstr "レプリカ合意設定の読み込みに失敗しました - $0"
 
 #: src/replication.jsx:926
 msgid "Error loading replication changelog configuration - $0"
@@ -14551,26 +14555,6 @@ msgstr "レプリケーション情報を読み込んでいます..."
 msgid "Loading Replication Configuration For "
 msgstr "レプリケーション情報を読み込んでいます "
 
-#: src/server.jsx:150
-msgid "Security"
-msgstr "セキュリティ"
-
-#: src/server.jsx:155
-msgid "SASL Settings & Mappings"
-msgstr "SASL設定とマッピング"
-
-#: src/server.jsx:160
-msgid "LDAPI & Autobind"
-msgstr "LDAPI&自動バインド"
-
-#: src/server.jsx:165 src/monitor.jsx:238
-msgid "Logging"
-msgstr "ログ"
-
-#: src/server.jsx:220
-msgid "Loading Server Configuration ..."
-msgstr "サーバ設定を読み込んでいます..."
-
 #: src/monitor.jsx:159
 msgid "Agreements"
 msgstr "合意"
@@ -14582,6 +14566,10 @@ msgstr "タスク"
 #: src/monitor.jsx:183
 msgid "Conflict Entries"
 msgstr "競合エントリ"
+
+#: src/monitor.jsx:238 src/server.jsx:165
+msgid "Logging"
+msgstr "ログ"
 
 #: src/monitor.jsx:950
 msgid "Loading Database Monitor Information ..."
@@ -14970,5 +14958,18 @@ msgstr ""
 "エントリ $0 はルートサフィックスのcn=nsDisabledRoleエントリ内にあるnsRoleDN属"
 "性$1されます。"
 
-#~ msgid "Failed to get .dsrc information: $0"
-#~ msgstr ".dsrc情報の取得に失敗しました：$0"
+#: src/server.jsx:150
+msgid "Security"
+msgstr "セキュリティ"
+
+#: src/server.jsx:155
+msgid "SASL Settings & Mappings"
+msgstr "SASL設定とマッピング"
+
+#: src/server.jsx:160
+msgid "LDAPI & Autobind"
+msgstr "LDAPI&自動バインド"
+
+#: src/server.jsx:220
+msgid "Loading Server Configuration ..."
+msgstr "サーバ設定を読み込んでいます..."
